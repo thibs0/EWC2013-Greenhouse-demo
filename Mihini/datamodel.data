@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<data:AssetContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:data="http://www.sierrawireless.com/airvantage/data/1.0">
+  <assets defaultLabel="Greenhouse" id="GreenhouseDemo01">
+    <variable description="Luminosity" defaultLabel="Luminosity" path="luminosity" type="double"/>
+    <variable description="Temperature" defaultLabel="Temperature" path="temperature" type="double"/>
+    <variable description="Humidity" defaultLabel="Humidity" path="humidity" type="double"/>
+    <command description="ToggleSwitch" defaultLabel="ToggleSwitch" path="toggleswitch"/>
+    <setting description="Switch on/off" defaultLabel="Switch" path="switch" defaultValue="0" type="double"/>
+  </assets>
+</data:AssetContainer>
